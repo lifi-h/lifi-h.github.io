@@ -1,0 +1,79 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 20%;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3954a5;
+    border-image: initial;
+}
+
+.menu {
+    width: 60%;
+}
+
+.row {
+  border: 2px solid #3954a5;
+}
+
+.button {
+    width: 20%;
+    font-size: 100px;
+    text-align: center;
+    cursor: url(assets/images/pointer_1750.png), pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3954a5;
+    border-image: initial;
+}
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  .nav {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .item {
+	width: 25%;
+	font-size: 30px;
+  }
+  
+  .container {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .thumbnail {
+	width: 20%;
+	border: 2px solid #3954a5;
+	transition: 0.7s;
+  }
+  
+  .thumbnail.enlarge {
+	width: 40%;
+	transition: 0.7s;
+  }
+  
+  .thumbnail img {
+	width: 100%;
+  }
+  
