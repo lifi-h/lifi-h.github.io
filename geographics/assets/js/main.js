@@ -34,4 +34,19 @@ $(document).ready(function () {
     });
   });
   
+  $(document).ready(function () {
+    console.log("Hello world");
+  
+    $(".row").click(function () {
+      $(this).find(".content-book").slideToggle("fast");
+    });
+  });
+  
+  $(document).ready(function () {
+    console.log("Hello world");
+  
+    $(".row").click(function () {
+      $(this).find(".link1").slideToggle("fast");
+    });
+  });
   
